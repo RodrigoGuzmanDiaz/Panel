@@ -1,0 +1,123 @@
+.header{
+    width: auto;
+    height: 3rem;
+    background-color: blueviolet;
+}
+.contenido{
+    width: auto;
+    height: 50rem;
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Panel{
+    width: auto;
+    height: 100%;
+    /* background-color: blue; */
+    border: 0.1rem solid red;
+}
+.Panel div{
+    width: auto;
+    height: 2rem;
+    border: 0.1rem solid black;
+    background-color: aquamarine;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.visualizacion{
+  
+    width: 100%;
+    height: auto;
+    background-color: rgb(35, 204, 35);
+    border: 0.1rem solid black;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+}
+.opcionCarts_has_products{
+    width: 23rem;
+    height: 15rem;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionCarts_has_products div{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid;
+    flex-direction: column;
+}
+.opcionCategory{
+    width: 26rem;
+    height: 10rem;
+    background-color: blueviolet;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionCategory div{
+  
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+}
+.opcionOption{
+    width: 26rem;
+    height: 10rem;
+    background-color: goldenrod;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOption div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+
+}
+.opcionOrder{
+    width: 26rem;
+    height: 10rem;
+    background-color: goldenrod;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.opcionOrder div{
+    font-weight: 900;
+    display: flex;
+    width: 85%;
+    border: 1px solid;
+
+}
+.opcionShopping{
+    width: 13rem;
+    height: 10rem;
+    background-color:RED;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
